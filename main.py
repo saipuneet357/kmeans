@@ -2,7 +2,7 @@ import numpy as np
 
 
 class Kmeans:
-    # Initialize with number of clusters and some integer
+    # Initialize with number of clusters and an integer n for random initilialization
     def __init__(self, n_clusters, n):
         self.m = {i: [] for i in range(n_clusters)}
         self.centroid = np.random.randint(low=0, high=n, size=(n_clusters, 2))
