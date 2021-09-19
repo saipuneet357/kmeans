@@ -2,7 +2,7 @@
 Created a kmeans class similar to sklearn's interface
 
 Methods available:
-fit
+fit \n
 predict
 fit_predict
 transform
